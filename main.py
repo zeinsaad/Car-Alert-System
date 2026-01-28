@@ -3,7 +3,7 @@ import torch
 import time
 
 from eye_closure.detector import EyeDetector
-from phone.detector_new import PhoneDetector
+from phone_detector.detector_new import PhoneDetector
 from head_pose.detector_final import HeadPoseDetector
 from modules.Eye_model import EyeStateCNN
 
